@@ -11,7 +11,3 @@ while color != "":
     else:
         print("Invalid color")
     color = input("Enter color name: ").title()
-
-
-for i in range(len(list_key)):
-    print("{:3} is {}".format(list_key[i], COLOR_NAMES[list_key[i]]))
